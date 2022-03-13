@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      var p = document.querySelector('p')
+      console.log('listen p in index.html', p)
+    })
+  </script>
+  <link rel="stylesheet" href="./static/style.css?sleep=10000">
+  <script scr="./static/index.js"></script>
+</head>
+
+<body>
+  <script>
+    // const p = document.querySelector('p')
+    // console.log('listen p in index html script in body', p)
+    // for(var i = 0, arr = []; i < 100000000; i++) {
+    //   arr.push(i)
+    // }
+  </script>
+  <p>hello world</p>
+</body>
+
+</html>
